@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
+import cn from "classnames";
 import styles from "./styles.module.scss";
 
 interface Props {
-    label: string;
+  label: string;
 }
 
-export const Input: React.FC<Props> = ({label}) => {
+export const Input: React.FC<Props> = ({ label }) => {
   return (
     <label className={styles.inputContainer}>
-        <h2>{label}</h2>
-        <input />
+      <h2>{label}</h2>
+      <input className={cn(styles.customInput, ".input-group-addon)")} />
     </label>
-  )
-}
+  );
+};
