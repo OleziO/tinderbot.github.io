@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TinderBot/static/js/main.8369b06d.js",
-    "index.html": "/TinderBot/index.html",
-    "main.8369b06d.js.map": "/TinderBot/static/js/main.8369b06d.js.map"
+    "main.js": "/OleziO/TinderBot/static/js/main.138185fc.js",
+    "index.html": "/OleziO/TinderBot/index.html",
+    "main.138185fc.js.map": "/OleziO/TinderBot/static/js/main.138185fc.js.map"
   },
   "entrypoints": [
-    "static/js/main.8369b06d.js"
+    "static/js/main.138185fc.js"
   ]
 }
