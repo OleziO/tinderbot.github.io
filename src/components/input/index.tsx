@@ -9,7 +9,7 @@ interface Props {
 export const Input: React.FC<Props> = ({ label }) => {
   return (
     <label className={styles.inputContainer}>
-      <h2>{label}</h2>
+      <h2 className={styles.label}>{label}</h2>
       <input className={cn(styles.customInput, ".input-group-addon)")} />
     </label>
   );

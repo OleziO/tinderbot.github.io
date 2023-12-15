@@ -1,7 +1,15 @@
 .inputContainer {
   width: 100%;
+  color: orange;
+
   .customInput {
     width: 100%;
     padding: 10px;
+    background-color: transparent;
+    border: 2px solid orange;
+
+    &:focus {
+      outline: none;
+    }
   }
 }
